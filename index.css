@@ -179,10 +179,73 @@ ul.nav_menu>li>a{
 
 
 
-.main{
-  /* height: 10px; */
-  /* background-color: gray; */
+/* STUDENT REVIEW */
+.student_review{
+  margin: 45px 0;
 }
+.student_review_title{
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+.student_review_short_title{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  opacity: 0.5;
+  word-spacing: 10px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+.review{
+  margin-top: 50px;
+}
+.student_review_item{
+  width: 445px;
+  background-color: gray;
+  border: 1px solid white;
+  height: 230px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 5px;
+}
+.student_review_slider_btn_container{
+  text-align: center;
+  margin-top: 50px;
+}
+.circle_icon{
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.circle_icon:hover{
+  background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
