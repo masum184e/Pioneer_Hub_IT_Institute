@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Atma:wght@500&family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Atma:wght@500&family=Hind+Siliguri:wght@500&family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Atma:wght@500&family=Baloo+Da+2&family=Hind+Siliguri:wght@500&family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Hind+Siliguri&family=Noto+Serif+Bengali:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #183153;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.container{
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+
+
+
+
+/* HEADER */
+header{}
+nav{
+  background: #0f2a4e;
+  /* align-items: center; */
+  /* background-color: red; */
+  /* padding: 25px 0; */
+}
+a.nav_brand{
+  display: inline-block;
+  width: 20%;
+  align-self: center;
+}
+a.nav_brand>img{
+  width: 100%;
+}
+ul.nav_menu{
+  width: 80%;
+  text-align: right;
+  align-self: center;
+}
+ul.nav_menu>li{
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 15px;
+}
+ul.nav_menu>li>a{
+  font-size: 30px;
+  color: white;
+  /* font-family: 'Anek Bangla', sans-serif; */
+  /* font-family: 'Alkatra', cursive; */
+  /* font-family: 'Hind Siliguri', sans-serif; */
+  /* font-family: 'Noto Serif Bengali', serif; */
+  font-family: 'Baloo Da 2', cursive;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.become_instructor{
+  margin-top: 70px;
+  margin-bottom: 75px;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact_details_container{
+  width: 50%;
+}
+.become_instructor_title{
+  width: fit-content;
+  margin: auto;
+  color: #0f294c;
+  font-size: 35px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px 15px;
+  font-family: sans-serif;
+}
+.contact_icon_container{
+  text-align: center;
+  margin-top: 40px;
+}
+.contact_icon{
+  margin: 0 10px;
+  display: inline-block;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.contact_icon_item{
+  font-size: 35px;
+  color: #0f294c;
+}
+.form_details_container{}
+.form_details_container>form{
+  border: 1px solid #97999d;
+  font-family: sans-serif;
+  border-radius: 10px;
+  padding: 30px;
+}
+.form_details_container>form>div.form_item{}
+.user_icon,.write_icon,.mail_icon{
+  margin-right: 8px;
+}
+.form_details_container>form>div.form_item>label{
+  font-size: 25px;
+  color: white;
+  font-family: sans-serif;
+  display: block;
+  margin: 10px 0 5px 0;
+}
+.form_details_container>form>div.form_item:first-of-type>label{
+  margin-top: 0px;
+}
+.form_details_container>form>div.form_item:last-of-type>label{
+  margin-bottom: 0px;
+}
+
+.form_details_container>form>div.form_item>input[type='text']{
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  padding: 3px 8px;
+  border-radius: 3px
+}
+.form_details_container>form>div.form_item>input[type='email']{
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  padding: 3px 8px;
+  border-radius: 3px
+
+}
+.form_details_container>form>div.form_item>textarea{
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 25px;
+  text-align: justify;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.form_details_container>form>div.form_item>textarea::-webkit-scrollbar {
+  width: 7px;
+  cursor: pointer;
+}
+.form_details_container>form>div.form_item>textarea::-webkit-scrollbar-track {
+  background: gray;
+  /* border: 1px solid black; */
+}
+::-webkit-scrollbar-thumb {
+  background: #0f2a4e;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+}
+.form_details_container>form>div.form_item>input[type='submit']{
+  width: 100%;
+  outline: none;
+  background: transparent;
+  border: 1px solid gray;
+  font-size: 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.main{
+  /* height: 10px; */
+  /* background-color: gray; */
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+  background-color: #0f2a4e;
+}
+.footer{
+  /* margin-top: 60px!important; */
+}
+.footer_item{}
+.about{
+  width: 26%;
+  padding: 15px 20px;
+  padding-left: 0;
+}
+.about>img{
+  width: 100%;
+}
+.about>p{
+  color: #97999d;
+  text-align: justify;
+  font-size: 20px;
+  word-spacing: 5px;
+  margin: 20px 0;
+  line-height: 32px;
+}
+.populer_courses{
+  width: 33%;
+  padding: 15px 20px;
+}
+.populer_courses>h1{
+  color: white;
+  font-size: 45px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.populer_courses>ul{
+  margin-top: 30px;
+}
+.populer_courses>ul>li{
+  margin: 15px 0;
+}
+.populer_courses>ul>li>a{
+  color: #97999d;
+  font-size: 18px;
+  font-family: 'Baloo Da 2', cursive;
+}
+.quick_links{
+  width: 21%;
+  padding: 15px 20px;
+}
+.quick_links>h1{
+  font-size: 45px;
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.quick_links>ul{
+  margin-top: 30px;
+}
+.quick_links>ul>li{
+  margin: 10px 0;
+}
+.quick_links>ul>li>a{
+  font-size: 18px;
+  color: #97999d;
+  font-family: 'Baloo Da 2', cursive;
+}
+.others{
+  width: 20%;
+  padding: 15px 20px;
+}
+.others>h1{
+  font-size: 45px;
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.others>ul{
+  margin-top: 30px;
+}
+.others>ul>li{
+  margin: 10px 0;
+}
+.others>ul>li>a{
+  font-size: 18px;
+  color: #97999d;
+  font-family: 'Baloo Da 2', cursive;
+
+}

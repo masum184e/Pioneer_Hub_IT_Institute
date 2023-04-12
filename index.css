@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Atma:wght@500&family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Atma:wght@500&family=Hind+Siliguri:wght@500&family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Atma:wght@500&family=Baloo+Da+2&family=Hind+Siliguri:wght@500&family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Hind+Siliguri&family=Noto+Serif+Bengali:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #183153;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.container{
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+
+
+
+
+/* HEADER */
+header{}
+nav{
+  background: #0f2a4e;
+  /* align-items: center; */
+  /* background-color: red; */
+  /* padding: 25px 0; */
+}
+a.nav_brand{
+  display: inline-block;
+  width: 20%;
+  align-self: center;
+}
+a.nav_brand>img{
+  width: 100%;
+}
+ul.nav_menu{
+  width: 80%;
+  text-align: right;
+  align-self: center;
+}
+ul.nav_menu>li{
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 15px;
+}
+ul.nav_menu>li>a{
+  font-size: 30px;
+  color: white;
+  /* font-family: 'Anek Bangla', sans-serif; */
+  /* font-family: 'Alkatra', cursive; */
+  /* font-family: 'Hind Siliguri', sans-serif; */
+  /* font-family: 'Noto Serif Bengali', serif; */
+  font-family: 'Baloo Da 2', cursive;
+
+}
+
+
+
+
+
+
+
+
+
+.home{
+  /* border: 1px solid black; */
+  margin-top: 25px;
+}
+.description_container{
+  width: 45%;
+  /* border: 1px solid black; */
+  padding: 25px 0;
+}
+.home_short_title{
+  margin-bottom: 5px;
+  font-family: 'Baloo Da 2', cursive;
+  color: white;
+  opacity: 0.5;
+  word-spacing: 7px;
+}
+.computer_icon{
+  margin-right: 10px;
+}
+.home_main_title{
+  font-size: 60px;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: white;
+}
+.home_description{
+  text-align: justify;
+  line-height: 35px;
+  word-spacing: 5px;
+  margin: 25px 0;
+  color: white;
+  opacity: 0.5;
+  font-family: 'Atma', cursive;
+  letter-spacing: 1px;
+}
+.btn_container{
+  margin: 40px 0 40px 0;
+  /* text-align: center; */
+  /* margin: 30px 0 30px 0; */
+}
+/* .hire_btn{
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 0 30px;
+  font-size: 30px;
+} */
+.hire_btn{
+  display: inline-block;
+  /* border: 1px solid #97999d; */
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 20px;
+  /* background: rgba(62 146 250, 1); */
+  color: white;
+  /* font-family: 'DynaPuff', cursive;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  text-transform: uppercase; */
+}
+.join_btn{
+  display: inline-block;
+  /* border: 1px solid #97999d; */
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 40px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.wave_money_icon,.book_icon{
+  margin-right: 5px;
+}
+.banner_container{
+  width: 55%;
+  /* background-color: gray; */
+  /* align-self: center; */
+  /* border: 1px solid black; */
+}
+.banner_container>.img{
+  background-color: gray;
+  height: 425px;
+  width: 680px;
+  float: right;
+  margin: 90px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+  /* height: 10px; */
+  /* background-color: gray; */
+}
+
+
+
+
+/* FOOTER */
+footer{
+  background-color: #0f2a4e;
+}
+.footer{
+  margin-top: 60px!important;
+}
+.footer_item{}
+.about{
+  width: 26%;
+  padding: 15px 20px;
+  padding-left: 0;
+}
+.about>img{
+  width: 100%;
+}
+.about>p{
+  color: #97999d;
+  text-align: justify;
+  font-size: 20px;
+  word-spacing: 5px;
+  margin: 20px 0;
+  line-height: 32px;
+}
+.populer_courses{
+  width: 33%;
+  padding: 15px 20px;
+}
+.populer_courses>h1{
+  color: white;
+  font-size: 45px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.populer_courses>ul{
+  margin-top: 30px;
+}
+.populer_courses>ul>li{
+  margin: 15px 0;
+}
+.populer_courses>ul>li>a{
+  color: #97999d;
+  font-size: 18px;
+  font-family: 'Baloo Da 2', cursive;
+}
+.quick_links{
+  width: 21%;
+  padding: 15px 20px;
+}
+.quick_links>h1{
+  font-size: 45px;
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.quick_links>ul{
+  margin-top: 30px;
+}
+.quick_links>ul>li{
+  margin: 10px 0;
+}
+.quick_links>ul>li>a{
+  font-size: 18px;
+  color: #97999d;
+  font-family: 'Baloo Da 2', cursive;
+}
+.others{
+  width: 20%;
+  padding: 15px 20px;
+}
+.others>h1{
+  font-size: 45px;
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.others>ul{
+  margin-top: 30px;
+}
+.others>ul>li{
+  margin: 10px 0;
+}
+.others>ul>li>a{
+  font-size: 18px;
+  color: #97999d;
+  font-family: 'Baloo Da 2', cursive;
+
+}
