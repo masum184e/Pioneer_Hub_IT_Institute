@@ -415,20 +415,39 @@ ul.nav_menu>li>a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hire_freelancer{}
+.hire_freelancer_container{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  align-items: center;
+}
+.hire_freelancer_details_container{
+  width: 50%;
+}
+.hire_freelancer_btn{
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid white;
+  color: white;
+}
+.hire_freelancer_short_title{
+  color: white;
+  opacity: 0.5;
+  font-size: 18px;
+  margin: 15px 0 30px 0;
+}
+.hire_freelancer_vector_container{
+  width: 50%;
+}
+.hire_freelancer_vector{
+  height: 265px;
+  width: 100%;
+  background-color: gray;
+  border-radius: 5px;
+}
 
 
 
@@ -490,6 +509,58 @@ ul.nav_menu>li>a{
   background-color: gray;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.instructor{}
+.become_instructor{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  align-items: center;
+}
+.instructor_details_container{
+  width: 50%;
+  text-align: right;
+}
+.instructor_btn{
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid white;
+  color: white;
+}
+.instructor_short_title{
+  color: white;
+  opacity: 0.5;
+  font-size: 18px;
+  margin: 10px 0;
+  font-family: 'Baloo Da 2', cursive;
+}
+.instructor_vector_container{
+  width: 50%;
+}
+.instructor_vector{
+  height: 265px;
+  width: 100%;
+  background-color: gray;
+  border-radius: 5px;
+}
 
 
 
