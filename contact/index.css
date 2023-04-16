@@ -29,35 +29,9 @@ a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* HEADER */
 header{}
 nav{
-  background: #0f2a4e;
   /* align-items: center; */
   /* background-color: red; */
   /* padding: 25px 0; */
@@ -65,7 +39,6 @@ nav{
 a.nav_brand{
   display: inline-block;
   width: 20%;
-  align-self: center;
 }
 a.nav_brand>img{
   width: 100%;
@@ -73,7 +46,6 @@ a.nav_brand>img{
 ul.nav_menu{
   width: 80%;
   text-align: right;
-  align-self: center;
 }
 ul.nav_menu>li{
   display: inline-block;
@@ -101,184 +73,193 @@ ul.nav_menu>li>a{
 
 
 
-
-
-
-
-
-
-.success{
-  margin: 60px 0;
+.find_us{
+  padding: 65px 0;
 }
-.success_container{}
-.success_description_container{
+.find_us_container{
+  /* align-items: center; */
+}
+.social_links_container{
   width: 50%;
 }
-.success_short_title{
-  color: white;
-  opacity: 0.7;
-  font-family: 'Baloo Da 2', cursive;
-}
-.trophy_icon{
-  margin-right: 10px;
-}
-.success_main_title{
-  font-family: 'Hind Siliguri', sans-serif;
-  color: white;
-  font-size: 30px;
-  margin: 5px 0 20px 0;
-  line-height: 40px;
-}
-.success_description{
-  text-align: justify;
-  line-height: 35px;
-  word-spacing: 5px;
-  color: white;
-  opacity: 0.5;
-  font-family: 'Atma', cursive;
-  letter-spacing: 1px;
-}
-.success_vector_container{
-  width: 50%;
-  padding: 40px 0 0 20px;
-}
-.success_vector{
-  width: 100%;
-  height: 330px;
-  background-color: gray;
-  border-radius: 5px;
-}
-.join_btn{
-  border: 1px solid white;
-  border-radius: 5px;
-  color: white;
-  padding: 5px 10px;
-  display: inline-block;
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.about_us{
-  margin: auto;
-  width: 90%;
-  /* padding-top: 50px;
-  padding-bottom: 60px; */
-  /* padding-top: 50px; */
-  padding-bottom: 60px;
-  padding-top: 60px;
-
-}
-.about_us_title{
-  text-align: center;
-  font-family: 'Hind Siliguri', sans-serif;
+.social_links_title{
   color: white;
   font-size: 45px;
+  font-family: 'Baloo Da 2';
 }
-.about_us_description{
-  margin: auto;
-  width: 61%;
-  text-align: justify;
-  line-height: 35px;
-  word-spacing: 5px;
-  color: white;
-  opacity: 0.5;
-  font-family: 'Atma', cursive;
-  letter-spacing: 1px;
+.social_links_icon_container{
+  margin-top: 45px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.address{}
-.address_container{
-  justify-content: space-between;
-  padding: 60px 0;
-  align-items: center;
-  /* border: 1px solid red; */
-}
-.address_vector_container{
-  width: 50%;
-  /* border: 1px solid black; */
-}
-.address_vector_title{
-  color: white;
-  display: none;
-}
-/* .address_vector{
-  background-color: gray;
-  height: 245px;
-  width: 100%;
-} */
-.contact_icon_container{
-  text-align: center;
-  /* margin-top: 40px; */
-}
-.contact_icon{
-  margin: 0 10px;
-  display: inline-block;
+.social_link_icon{
   background-color: white;
-  padding: 15px 20px;
+  padding: 20px 20px;
+  display: inline-block;
   border-radius: 5px;
+  margin: 0 15px;
 }
-.contact_icon_item{
-  font-size: 35px;
-  color: #0f294c;
+.social_link_icon:first-of-type{
+  margin-left: 0px;
 }
-.address_details_contaienr{
+.social_link_icon_item{
+  color: #0f2a4e;
+  font-size: 40px;
+}
+.address{
   width: 50%;
-  border: 1px solid black;
-}
-address{
-  text-align: right;
 }
 .address_title{
   color: white;
+  font-size: 45px;
+  font-family: 'Baloo Da 2';
 }
-.address_email{
+.address_container{
+  display: flex;
+  justify-content: space-between;
+}
+.physical_address{
+  width: 30%;
+}
+.mail_address{
+  width: 38%;
+}
+.mobile_address{
+  width: 30%;
+}
+.address_item{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
   color: rgba(255, 255, 255, 0.5);
 }
-.address_email>a{
-  color: rgba(255, 255, 255, 0.5);
+.physical_address{}
+.mail_address{}
+.mobile_address{}
+.address_item_title{}
+.address_icon{
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.5);;
+  height: 50px;
+  width: 50px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 20px 0;
 }
-.address_phone{
-  color: rgba(255, 255, 255, 0.5);
+.address_icon_item{
+  color: #0f2a4e;
+  font-size: 25px;
 }
-.address_address{
-  color: rgba(255, 255, 255, 0.5);
+.address_details{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.send_message{
+  padding: 65px 0;
 }
+.send_message_title{
+  font-family: 'Baloo Da 2';
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.send_message>form{}
+.user_details{
+  width: 50%;
+  padding-right: 20px;
+}
+.user_details>input{}
+::placeholder{}
+.user_details>input[type='text']{
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 2px 6px;
+  font-size: 25px;
+}
+.user_details>input[type='email']{
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 2px 6px;
+  font-size: 25px;
+}
+.user_details>input[type='number']{
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 2px 6px;
+  font-size: 25px;
+}
+.user_details>input[type='submit']{
+  display: block;
+  border-radius: 5px;
+  background: white;
+  border: 2px solid #061931;
+  outline: none;
+  color: #061931;
+  padding: 2px 20px;
+  font-size: 25px;
+  font-family: cursive;
+  margin-top: 40px;
+}
+.user_message{
+  width: 50%;
+}
+.user_message>textarea{
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  border-radius: 5px;
+  height: 215px;
+  padding: 10px 14px;
+  text-align: justify;
+  line-height: 25px;
+  word-spacing: 5px;
+  font-family: sans-serif;
+}
+.user_message>textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
